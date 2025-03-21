@@ -4,12 +4,21 @@ using UnityEngine;
 public class HUDController : MonoBehaviour
 {
     public MovementController moveController;
-    public TextMeshProUGUI textMeshPro;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-
-    // Update is called once per frame
+    public TextMeshProUGUI speedHUD;
+    public TextMeshProUGUI fpsHUD;
+    private float deltaTime = 0.0f;
+    public float fps;
     void Update()
     {
-        textMeshPro.text = "speed: " + moveController.moveSpeed;
+
+        deltaTime += (Time.deltaTime - deltaTime) * 0.1f; // Сглаживание значения FPS
+        fps = 1.0f / deltaTime;
+    }
+
+    private void FixedUpdate()
+    {
+        speedHUD.text = "speed: " + moveController.moveSpeed.ToString("F2");
+
+        fpsHUD.text = "fps: " + fps.ToString("F2");
     }
 }

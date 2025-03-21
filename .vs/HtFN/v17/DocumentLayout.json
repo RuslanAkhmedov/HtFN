@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\unity project\\HtFN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|d:\\unity project\\htfn\\assets\\htfn main\\scripts\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|d:\\unity project\\htfn\\assets\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|d:\\unity project\\htfn\\assets\\htfn main\\scripts\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\scripts\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|D:\\unity project\\HtFN\\assets\\htfn main\\scripts\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\scripts\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\unity project\\htfn\\assets\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unity project\\HtFN\\Assets\\HUDController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\HUDController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\GameController.cs",
+              "RelativeDocumentMoniker": "Assets\\GameController.cs",
+              "ToolTip": "D:\\unity project\\HtFN\\Assets\\GameController.cs",
+              "RelativeToolTip": "Assets\\GameController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T01:23:45.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HUDController.cs",
+              "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\HUDController.cs",
+              "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\HUDController.cs",
+              "ToolTip": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\HUDController.cs",
+              "RelativeToolTip": "Assets\\HtFN Main\\Scripts\\HUDController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T01:18:22.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "HUDController.cs",
               "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HUDController.cs",
               "RelativeDocumentMoniker": "Assets\\HUDController.cs",
@@ -34,16 +68,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MovementController.cs",
               "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\MovementController.cs",
               "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\MovementController.cs",
               "ToolTip": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\MovementController.cs",
               "RelativeToolTip": "Assets\\HtFN Main\\Scripts\\MovementController.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAA8wJQAAAAiAAAA",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAmwJQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T00:29:32.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T00:29:32.569Z"
             }
           ]
         }
