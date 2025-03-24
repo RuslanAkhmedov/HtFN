@@ -1,8 +1,7 @@
-using System.Globalization;
-using UnityEditor.Overlays;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static UnityEngine.Rendering.DebugUI;
 public class MenuController : MonoBehaviour 
 {
     [SerializeField]
@@ -12,6 +11,9 @@ public class MenuController : MonoBehaviour
     public AudioSource AudioSourceMusic;
     private void Start()
     {
+        float musicVolume = PlayerPrefs.GetFloat("MusicVolume", 0.2f);
+        AudioSourceMusic.volume = musicVolume;
+        SliderMusic.value = musicVolume; 
         SliderMusic.onValueChanged.AddListener(OnSlider);
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created

@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class MovementController : MonoBehaviour
 {
+    public PlayerController playerController;
     public CinemachineCamera virtualCamera;
     private Rigidbody rb;
 
@@ -37,6 +38,10 @@ public class MovementController : MonoBehaviour
     private Vector3 moveDirection;
     private bool grounded;
 
+    public bool useStamine { get; private set; }
+
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -67,7 +72,7 @@ public class MovementController : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKey(jumpKey) && readyToJump && grounded)
+        if (Input.GetKeyDown(jumpKey) && readyToJump && grounded)
         {
             readyToJump = false;
             Jump();
@@ -116,48 +121,59 @@ public class MovementController : MonoBehaviour
 
     private void Jump()
     {
+        if (playerController.stamine < 10) return;
         rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
+
+        // ƒобавл€ем прыжковую силу
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+
+
+        playerController.stamine -= 10;
+        playerController.canUseStamine = playerController.stamine > 0;
+        useStamine = true;
     }
 
     private void HandleSprint()
     {
-        // ѕроверка, если мы на земле и удерживаем кнопку спринта
+        bool isMoving = horizontalInput != 0 || verticalInput != 0;
+        bool isSprinting = Input.GetKey(sprintKey) && grounded && isMoving && playerController.canUseStamine;
 
-        // ѕроверка на движение (если нет ввода, то персонаж стоит на месте)
-        bool isMoving = Mathf.Abs(horizontalInput) > 0.1f || Mathf.Abs(verticalInput) > 0.1f;
-        bool isSprinting = Input.GetKey(sprintKey) && grounded && isMoving;
-
-        // ”станавливаем целевую скорость и ускорение в зависимости от состо€ни€
-        float targetSpeed = 0f; // по умолчанию дл€ состо€ни€ сто€ни€
-        float targetAcceleration = 0f; // по умолчанию дл€ состо€ни€ сто€ни€
+        float targetSpeed = isSprinting ? sprintSpeed : walkSpeed;
+        float targetAcceleration = isSprinting ? sprintAcceleration : walkAcceleration;
 
         if (isSprinting)
         {
-            targetSpeed = sprintSpeed;
-            targetAcceleration = sprintAcceleration;
+            playerController.stamine = Mathf.Max(playerController.stamine - Time.deltaTime * 5, 0);
+
+            if (playerController.stamine <= 0)
+            {
+                playerController.canUseStamine = false;
+                useStamine = false;
+            }
+            else
+            {
+                useStamine = true;
+            }
         }
-        else if (isMoving)
+        else if (!grounded) // ≈сли игрок в воздухе после прыжка, продолжаем считать стамину потраченной
         {
-            targetSpeed = walkSpeed;
-            targetAcceleration = walkAcceleration;
+            useStamine = true;
         }
         else
         {
-            // ≈сли персонаж не двигаетс€, ставим минимальное значение дл€ скорости и ускорени€
-            targetSpeed = 0; // можно установить минимальную скорость, если персонаж не двигаетс€
-            targetAcceleration = 30; // или оставить стандартное ускорение дл€ сто€ни€
+            useStamine = false;
         }
 
-        // ѕлавное изменение значени€ moveSpeed и acceleration
-        moveSpeed = Mathf.MoveTowards(moveSpeed, targetSpeed, Time.deltaTime * 10f);
-        acceleration = Mathf.MoveTowards(acceleration, targetAcceleration, Time.deltaTime * 10f);
+        moveSpeed = Mathf.MoveTowards(moveSpeed, targetSpeed, Time.fixedDeltaTime * 10f);
+        acceleration = Mathf.MoveTowards(acceleration, targetAcceleration, Time.fixedDeltaTime * 10f);
     }
 
     private void ResetJump()
     {
         readyToJump = true;
     }
+
+
 
     private void GroundCheck()
     {
