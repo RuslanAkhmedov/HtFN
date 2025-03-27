@@ -60,16 +60,31 @@ public class MenuController : MonoBehaviour
     private IEnumerator ProcessSwitchScene()
     {
         Debug.Log("Start");
+        layoutMenuSettings.gameObject.SetActive(false);
         _loadScene.Show();
-        _loadScene.ShowMessage("Loading...!!!");
+        _loadScene.ShowMessage("Loading...");
 
-        yield return _sceneLoader.LoadAsync("Level"); // Загрузка новой сцены
-        Debug.Log("TEST");
-        _loadScene.Show(); // Ensure the load scene is shown
+        // Запускаем асинхронную загрузку сцены с отключенной автоматической активацией
+        AsyncOperation asyncOp = SceneManager.LoadSceneAsync("Level");
+        asyncOp.allowSceneActivation = false;
+
+        // Ждём, пока загрузка не завершится (asyncOp.progress достигнет 0.9)
+        while (asyncOp.progress < 0.9f)
+        {
+            yield return null;
+        }
+
+        // Когда загрузка завершена, показываем сообщение и ждём нажатия клавиши F
         _loadScene.ShowMessage("Loading done. Press F.");
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.F));
 
-        yield return new WaitForSeconds(3f); // Increased delay to ensure message is visible
+        // Разрешаем активацию новой сцены
+        asyncOp.allowSceneActivation = true;
         _loadScene.Hide();
+        // Опционально можно подождать завершения активации
+
+
+       
     }
 
 
