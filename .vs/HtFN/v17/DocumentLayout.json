@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\unity project\\HtFN\\",
+  "WorkspaceRootPath": "C:\\Users\\requiem\\Desktop\\unity\\HtFN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|d:\\unity project\\htfn\\assets\\htfn main\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|c:\\users\\requiem\\desktop\\unity\\htfn\\assets\\htfn main\\scripts\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\scripts\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|c:\\users\\requiem\\desktop\\unity\\htfn\\assets\\htfn main\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|D:\\unity project\\HtFN\\assets\\htfn main\\scripts\\loadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|C:\\Users\\requiem\\Desktop\\unity\\HtFN\\assets\\htfn main\\scripts\\loadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\scripts\\loadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|D:\\unity project\\HtFN\\assets\\htfn main\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|C:\\Users\\requiem\\Desktop\\unity\\HtFN\\assets\\htfn main\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,15 +26,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\requiem\\Desktop\\unity\\HtFN\\Assets\\HtFN Main\\Scripts\\SettingsController.cs",
+              "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\SettingsController.cs",
+              "ToolTip": "C:\\Users\\requiem\\Desktop\\unity\\HtFN\\Assets\\HtFN Main\\Scripts\\SettingsController.cs",
+              "RelativeToolTip": "Assets\\HtFN Main\\Scripts\\SettingsController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwHYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:50:05.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LoadScene.cs",
-              "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\LoadScene.cs",
+              "DocumentMoniker": "C:\\Users\\requiem\\Desktop\\unity\\HtFN\\Assets\\HtFN Main\\Scripts\\LoadScene.cs",
               "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\LoadScene.cs",
-              "ToolTip": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\LoadScene.cs",
+              "ToolTip": "C:\\Users\\requiem\\Desktop\\unity\\HtFN\\Assets\\HtFN Main\\Scripts\\LoadScene.cs",
               "RelativeToolTip": "Assets\\HtFN Main\\Scripts\\LoadScene.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -38,24 +63,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MenuController.cs",
-              "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\requiem\\Desktop\\unity\\HtFN\\Assets\\HtFN Main\\Scripts\\MenuController.cs",
               "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\MenuController.cs",
-              "ToolTip": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\MenuController.cs",
+              "ToolTip": "C:\\Users\\requiem\\Desktop\\unity\\HtFN\\Assets\\HtFN Main\\Scripts\\MenuController.cs",
               "RelativeToolTip": "Assets\\HtFN Main\\Scripts\\MenuController.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAwwDwAAAAFAAAA",
+              "ViewState": "AgIAADAAAAAAAAAAAAAwwDwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T02:40:27.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SceneLoader.cs",
-              "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\SceneLoader.cs",
+              "DocumentMoniker": "C:\\Users\\requiem\\Desktop\\unity\\HtFN\\Assets\\HtFN Main\\Scripts\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\SceneLoader.cs",
-              "ToolTip": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\SceneLoader.cs",
+              "ToolTip": "C:\\Users\\requiem\\Desktop\\unity\\HtFN\\Assets\\HtFN Main\\Scripts\\SceneLoader.cs",
               "RelativeToolTip": "Assets\\HtFN Main\\Scripts\\SceneLoader.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

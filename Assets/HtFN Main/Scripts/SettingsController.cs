@@ -13,6 +13,7 @@ public class SettingsController : MonoBehaviour
     public GameObject settingsCanvas;
     public GameObject gamePanel;
     public GameObject graphicsPanel;
+    public GameObject controllerPanel;
 
     public CameraController cameraController;
 
@@ -26,6 +27,7 @@ public class SettingsController : MonoBehaviour
     public CinemachineCamera virtualCamera;
     [HideInInspector]
     public bool isPaused = false; 
+
 
     void Start()
     {
@@ -115,6 +117,7 @@ public class SettingsController : MonoBehaviour
     {
         gamePanel.SetActive(true);
         graphicsPanel.SetActive(false);
+        controllerPanel.SetActive(false);
 
         settingsCanvas.SetActive(true);
         pauseCanvas.SetActive(false);
@@ -138,18 +141,27 @@ public class SettingsController : MonoBehaviour
     {
         pauseCanvas.SetActive(true);
         settingsCanvas.SetActive(false);
+       
     }
 
     public void OnClickGameSettings()
     {
         gamePanel.SetActive(true);
         graphicsPanel.SetActive(false);
+        controllerPanel.SetActive(false);
     }
 
     public void OnClickGraphicsSettings()
     {
         gamePanel.SetActive(false);
         graphicsPanel.SetActive(true);
+        controllerPanel.SetActive(false);
+    }
+    public void OnClickControllerSettings()
+    {
+        gamePanel.SetActive(false);
+        graphicsPanel.SetActive(false);
+        controllerPanel.SetActive(true);
     }
 
     public void OnInvertYChanged(bool isInverted)
