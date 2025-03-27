@@ -15,6 +15,9 @@ public class ButtonAnimationDOTween : MonoBehaviour, IPointerEnterHandler, IPoin
     public void OnPointerEnter(PointerEventData eventData)
     {
         transform.DOScale(originalScale * 1.2f, 0.2f).SetEase(Ease.OutBack);
+
+        // ¬оспроизведение глобального звука наведени€
+        AudioManager.Instance?.PlayHoverSound();
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -26,5 +29,8 @@ public class ButtonAnimationDOTween : MonoBehaviour, IPointerEnterHandler, IPoin
     {
         transform.DOScale(originalScale * 0.8f, 0.1f).SetEase(Ease.OutQuad)
             .OnComplete(() => transform.DOScale(originalScale, 0.1f));
+
+        // ¬оспроизведение глобального звука клика
+        AudioManager.Instance?.PlayClickSound();
     }
 }
