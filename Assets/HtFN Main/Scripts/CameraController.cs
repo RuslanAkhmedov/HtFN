@@ -7,7 +7,6 @@ public class CameraController : MonoBehaviour
     public CinemachineCamera virtualCamera;
     public CinemachineInputAxisController axisController;
     public SettingsController settingsController;
-    public GameObject flashlight;
 
     void Start()
     {
@@ -31,8 +30,6 @@ public class CameraController : MonoBehaviour
     {
         // ѕоворот модели персонажа в сторону взгл€да
         Vector3 forward = Camera.main.transform.forward;
-        forward.Normalize();
-        flashlight.transform.localRotation = Quaternion.LookRotation(forward, Vector3.up) * Quaternion.Euler(0,180,0);
 
         forward.y = 0f;
         forward.Normalize();

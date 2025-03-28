@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "D:\\unity project\\HtFN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|d:\\unity project\\htfn\\assets\\htfn main\\ui anim\\buttonanimationdotween.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\ui anim\\buttonanimationdotween.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|d:\\unity project\\htfn\\assets\\pistol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\pistol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|d:\\unity project\\htfn\\assets\\htfn main\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|D:\\unity project\\HtFN\\assets\\htfn main\\ui anim\\buttonanimationdotween.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\ui anim\\buttonanimationdotween.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|D:\\unity project\\HtFN\\assets\\htfn main\\scripts\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\scripts\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|D:\\unity project\\HtFN\\assets\\healthui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\healthui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|d:\\unity project\\htfn\\assets\\htfn main\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|D:\\unity project\\HtFN\\assets\\pistolrotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\pistolrotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|D:\\unity project\\HtFN\\assets\\htfn main\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|D:\\unity project\\HtFN\\assets\\htfn main\\scripts\\custominputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\scripts\\custominputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|D:\\unity project\\HtFN\\assets\\htfn main\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|D:\\unity project\\HtFN\\assets\\htfn main\\scripts\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\scripts\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|D:\\unity project\\HtFN\\assets\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|D:\\unity project\\HtFN\\assets\\htfn main\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|solutionrelative:assets\\htfn main\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25CE9489-3E25-39B7-02AE-015E388B5584}|Assembly-CSharp.csproj|D:\\unity project\\HtFN\\assets\\htfn main\\scripts\\loadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,30 +66,133 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Pistol.cs",
+              "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\Pistol.cs",
+              "RelativeDocumentMoniker": "Assets\\Pistol.cs",
+              "ToolTip": "D:\\unity project\\HtFN\\Assets\\Pistol.cs",
+              "RelativeToolTip": "Assets\\Pistol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T01:17:51.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\CameraController.cs",
+              "ToolTip": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\HtFN Main\\Scripts\\CameraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T01:16:01.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PistolRotate.cs",
+              "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\PistolRotate.cs",
+              "RelativeDocumentMoniker": "Assets\\PistolRotate.cs",
+              "ToolTip": "D:\\unity project\\HtFN\\Assets\\PistolRotate.cs",
+              "RelativeToolTip": "Assets\\PistolRotate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T01:00:33.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\HtFN Main\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T00:49:52.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HealthUI.cs",
+              "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HealthUI.cs",
+              "RelativeDocumentMoniker": "Assets\\HealthUI.cs",
+              "ToolTip": "D:\\unity project\\HtFN\\Assets\\HealthUI.cs",
+              "RelativeToolTip": "Assets\\HealthUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T23:46:18.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerHealth.cs",
+              "ToolTip": "D:\\unity project\\HtFN\\Assets\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\PlayerHealth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T23:43:08.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MovementController.cs",
+              "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\MovementController.cs",
+              "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\MovementController.cs",
+              "ToolTip": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\MovementController.cs",
+              "RelativeToolTip": "Assets\\HtFN Main\\Scripts\\MovementController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAwwDUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:16:09.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomInputManager.cs",
+              "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\CustomInputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\CustomInputManager.cs",
+              "ToolTip": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\CustomInputManager.cs",
+              "RelativeToolTip": "Assets\\HtFN Main\\Scripts\\CustomInputManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:15:49.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\AudioManager.cs",
               "ToolTip": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\AudioManager.cs",
               "RelativeToolTip": "Assets\\HtFN Main\\Scripts\\AudioManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwC8AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T14:05:30.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T14:05:30.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ButtonAnimationDOTween.cs",
               "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\UI Anim\\ButtonAnimationDOTween.cs",
               "RelativeDocumentMoniker": "Assets\\HtFN Main\\UI Anim\\ButtonAnimationDOTween.cs",
               "ToolTip": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\UI Anim\\ButtonAnimationDOTween.cs",
               "RelativeToolTip": "Assets\\HtFN Main\\UI Anim\\ButtonAnimationDOTween.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T13:58:10.381Z",
               "EditorCaption": ""
@@ -70,13 +205,14 @@
               "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\SettingsController.cs",
               "ToolTip": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\SettingsController.cs",
               "RelativeToolTip": "Assets\\HtFN Main\\Scripts\\SettingsController.cs",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAmwF4AAAAJAAAA",
+              "ViewState": "AQIAAIQAAAAAAAAAAAA4wF4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T12:50:05.653Z"
+              "WhenOpened": "2025-03-27T12:50:05.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "LoadScene.cs",
               "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\LoadScene.cs",
               "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\LoadScene.cs",
@@ -88,19 +224,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "MenuController.cs",
               "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\MenuController.cs",
               "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\MenuController.cs",
               "ToolTip": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\MenuController.cs",
               "RelativeToolTip": "Assets\\HtFN Main\\Scripts\\MenuController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAwwDwAAAAFAAAAAAAAAA==",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA9wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T02:40:27.098Z"
+              "WhenOpened": "2025-03-27T02:40:27.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "D:\\unity project\\HtFN\\Assets\\HtFN Main\\Scripts\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\HtFN Main\\Scripts\\SceneLoader.cs",

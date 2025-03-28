@@ -51,7 +51,6 @@ public class MovementController : MonoBehaviour
     private void Update()
     {
         MoveInput();
-
         HandleSprint();
         GroundCheck();
     }
@@ -179,6 +178,7 @@ public class MovementController : MonoBehaviour
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, whatIsGround);
         rb.linearDamping = grounded ? groundDrag : airDrag;
     }
+
 
 
 }
